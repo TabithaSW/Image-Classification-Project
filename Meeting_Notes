@@ -6,9 +6,9 @@ NOTES FROM MEETING:
 
 
 PROFESSORS CHAT NOTES:
-1- ResNet  
-2- what is the 6% error? Qualitative analysis
-3- Confusion matrix 
-4- Random 100 images (from any resource), Faster-RCNN, do segmentation => do deeper evaluations. 
-5- CLIP [from hugging face library] (https://huggingface.co/docs/transformers/model_doc/clip)
-6- learning curve [if you want to add more information about your model]
+1- ResNet (Described above)  
+2- What is the 6% error? Qualitative analysis.
+3- Make a Confusion matrix.
+4- Random 100 images (from any resource), Faster-RCNN, do segmentation => do deeper evaluations.  (Described Above)
+5- CLIP [from hugging face library] (https://huggingface.co/docs/transformers/model_doc/clip) (Described Above)
+6- Learning Curve (If we want to add more information about the model)
