@@ -3,3 +3,12 @@ NOTES FROM MEETING:
 - Use ResNet CNN in addition to our current model. (Pre-Trained Model for new accuracy to compare to current model!) (Compare Model Accuracy)
 - Evaluating our 94% model: Collect random 100 fruit images, use Pytorch, make a FastRCNN model, and try to see if our model can recognize it. Use our trained model after for the correct labels.
 - OR Use Clip/PyTorch to evaluate the model (HuggingFace's tokenizers library) 
+
+
+PROFESSORS CHAT NOTES:
+1- ResNet  
+2- what is the 6% error? Qualitative analysis
+3- Confusion matrix 
+4- Random 100 images (from any resource), Faster-RCNN, do segmentation => do deeper evaluations. 
+5- CLIP [from hugging face library] (https://huggingface.co/docs/transformers/model_doc/clip)
+6- learning curve [if you want to add more information about your model]
