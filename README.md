@@ -1,3 +1,6 @@
+MODEL ACCURACY AND EVALUATION INFORMATION 
+
+
 tensorflow_classification.ipynb contains the first model, it is a custom tf.keras.Sequential model with ReLU and Max Pooling Layers:
 Accuracy for train and test:
 
