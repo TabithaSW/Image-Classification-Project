@@ -10,6 +10,7 @@ Accuracy for ResNet train and test: 97% Train, 94% Test
 
 tensorflow_classification.ipynb contains the first model, it is a custom tf.keras.Sequential model with ReLU and Max Pooling Layers.
 
-Accuracy for custom train and test:
-- Test Accuracy, Loss and Accuracy: [0.1830456703901291, 0.9488309025764465]
+Accuracy for custom train and test: 95% Test, 99% Train
+- Train Result Accuracy, Loss and Accuracy: [0.010305597446858883, 0.9938234686851501]
+- Test Accuracy, Loss and Accuracy: [0.16977623105049133, 0.9524737596511841]
 
