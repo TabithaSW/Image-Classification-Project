@@ -3,6 +3,10 @@ MODEL ACCURACY AND EVALUATION INFORMATION
 
 ResNet_Model.ipynb contains the second model, it is a ResNet50 model with sparse cross entropy for the loss function, adam algorithm for the optimization, and random transformations to each individual image as it is passed to the model. (Tabitha's Model)
 
+Accuracy was meeasure using Tensorflow Keras Accuracy Metric, described as:
+
+- Calculates how often predictions equal labels. This metric creates two local variables, total and count that are used to compute the frequency with which y_pred matches y_true. This frequency is ultimately returned as binary accuracy: an idempotent operation that simply divides total by count.
+
 Accuracy for ResNet train and test: 94% Test, 97% Train,
 
 - Train Result Accuracy, Loss and Accuracy: [0.26725998520851135, 0.9760624170303345]
