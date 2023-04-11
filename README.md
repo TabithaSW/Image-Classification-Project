@@ -28,7 +28,7 @@ Accuracy was measured using Tensorflow Keras Accuracy Metric, described as:
 
 --------------------------------------------------------------------------------
 
-tensorflow_InceptionV3.ipynb contains the last model, it is a similar to ResNet except Inception focuses on computational cost, ResNet focuses on computational accuracy. We used Adam algorithm for optimization and sparse cross entropy again for loss. (Nick's Model)
+tensorflow_InceptionV3.ipynb contains the third model, it is a similar to ResNet except Inception focuses on computational cost, ResNet focuses on computational accuracy. We used Adam algorithm for optimization and sparse cross entropy again for loss. (Nick's Model)
 
 Accuracy for Inception train and test: 95% Test, 98% Train
 
@@ -38,5 +38,13 @@ Accuracy was measured using Tensorflow Keras Accuracy Metric, described as:
 
 - Train Result Accuracy, Loss and Accuracy: [0.0291230920702219, 0.9872484803199768]
 - Test Accuracy, Loss and Accuracy: [0.12433519214391708, 0.9503558278083801]
+
+---------------------------------------------------------------------------------
+
+CLIP_Model.ipynb contains the last model. CLIP consists of seperate encoder models for image and text data. The CLIPTokenizerFast is used to encode the text prompts. The CLIPProcessor uses a pretrained model for encode both text prompts and true images.
+
+There is no additional training required for this model.
+
+The accuracy was measured using the probabilities returned from the model. The plot of accuracy vs test runs is drawn.
 
 ---------------------------------------------------------------------------------
