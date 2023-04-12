@@ -41,10 +41,10 @@ Accuracy was measured using Tensorflow Keras Accuracy Metric, described as:
 
 ---------------------------------------------------------------------------------
 
-CLIP_Model.ipynb contains the last model. CLIP consists of seperate encoder models for image and text data. The CLIPTokenizerFast is used to encode the text prompts. The CLIPProcessor uses a pretrained model for encode both text prompts and true images.
+CLIP_Model.ipynb contains the last model. CLIP consists of seperate encoder models for image and text data. The CLIPTokenizerFast is used to encode the text prompts. The CLIPProcessor uses a pretrained model for encode both text prompts and true images. There is no additional training required for this model.
 
-There is no additional training required for this model.
+Accuracy for test: 90%
 
-The accuracy was measured using the probabilities returned from the model. The plot of accuracy vs test runs is drawn.
+The accuracy was measured using the probabilities returned from the model. The plot of accuracy vs test runs is drawn. 
 
 ---------------------------------------------------------------------------------
